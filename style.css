@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2a2b2f;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin-inline: auto;
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+#output{
+    color: black;
+    margin-bottom: 5px;
+}
+
+.date-time__body{
+    font-size: 30px;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.date-time__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+
+.btn{
+    border-radius: 5px;
+    padding-inline: 20px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+#full{
+    background-color: #004DFF;
+}
+
+#date{
+    background-color: green;
+}
+
+#time{
+    background-color: red;
+}
